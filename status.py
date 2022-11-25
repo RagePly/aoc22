@@ -32,6 +32,7 @@ try:
             mins = dtime.seconds % 3600 // 60
             hours = dtime.seconds // 3600
             days = dtime.days
+
             if days == -1:
                 datestr = f"opened {60  - secs} seconds, {59 - mins} minute and {23 - hours} hours ago"
             elif days < 0:
@@ -49,7 +50,7 @@ try:
             else:
                 datestr = f"opens in {days} days"
 
-            summary = Text("Day ", str(i).rjust(2), ": " , part1_star, part2_star, " " * 10, Text(datestr, color=AOC_DARKER), "\n", color=AOC_WHITE)
+            summary = Text("Day    ", str(i).rjust(2), ": " , part1_star, part2_star, " " * 10, Text(datestr, color=AOC_DARKER), "\n", color=AOC_WHITE)
             days_summary.append(summary)
 
         if tot_stars == 50:
@@ -76,7 +77,7 @@ try:
 
 
         todaystr = Text("Today: ", now.strftime("%c"), color=AOC_WHITE, bg=AOC_BG)
-        todaybxs = TextBox(todaystr, vec(splash.width() - todaystr.width(), 9))
+        todaybxs = TextBox(todaystr, vec(splash.width() - todaystr.width() - 2, 10))
         print_all(splash, todaybxs)
         sleep(0.2)
 except KeyboardInterrupt:

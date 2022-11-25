@@ -26,7 +26,6 @@ def match_with(text, *re_f):
         if not isinstance(r, re.Pattern):
             rp = __match_with_re_cache.get(r)
             if rp is None:
-                print("compiling", r)
                 rp = re.compile(r)
                 __match_with_re_cache[r] = rp
                 
