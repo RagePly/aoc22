@@ -32,7 +32,7 @@ try:
             mins = dtime.seconds % 3600 // 60
             hours = dtime.seconds // 3600
             days = dtime.days
-
+ 
             if days == -1:
                 datestr = f"opened {60  - secs} seconds, {59 - mins} minute and {23 - hours} hours ago"
             elif days < 0:
