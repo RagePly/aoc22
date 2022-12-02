@@ -1,4 +1,4 @@
-$content = Get-Content -Raw .\day1.txt
+$content = Get-Content -Raw .\input\day1.txt
 $calories = New-Object System.Collections.Generic.List[Int32]
 
 foreach ($line in $content.Split("`r`n`r`n")) {
