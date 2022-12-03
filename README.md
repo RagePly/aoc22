@@ -18,16 +18,23 @@ Using Python. When I have the extra time, Powershell 7.
     </tr>
     <tr>
         <td> Day 1 </td>
-        <td style="color: rgb(255, 255, 102);"> ★ </td>
-        <td style="color: rgb(255, 255, 102);"> ★ </td>
-        <td style="color: rgb(255, 255, 102);"> ★ </td>
-        <td style="color: rgb(255, 255, 102);"> ★ </td>
+        <td> ★ </td>
+        <td> ★ </td>
+        <td> ★ </td>
+        <td> ★ </td>
     </tr>
     <tr>
         <td> Day 2 </td>
-        <td style="color: rgb(255, 255, 102);"> ★ </td>
-        <td style="color: rgb(255, 255, 102);"> ★ </td>
-        <td style="color: rgb(255, 255, 102);"> ★ </td>
-        <td style="color: rgb(255, 255, 102);"> ★ </td>
+        <td> ★ </td>
+        <td> ★ </td>
+        <td> ★ </td>
+        <td> ★ </td>
+    </tr>
+    <tr>
+        <td> Day 3 </td>
+        <td> ★ </td>
+        <td> ★ </td>
+        <td> - </td>
+        <td> - </td>
     </tr>
 </table>
