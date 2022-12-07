@@ -24,8 +24,8 @@
         "part2": true
     },
     "day7": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
     },
     "day8": {
         "part1": false,
