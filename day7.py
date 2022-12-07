@@ -1,7 +1,7 @@
 # part 1
 with open("input/day7.txt") as f:
     cd = []
-    tree = {} 
+    tree = {}
     for line in map(str.strip, f.readlines()):
         if line.startswith("$"):
             _, com, *arg = line.split()
