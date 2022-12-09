@@ -1,7 +1,7 @@
 from typing import Union, Callable, Tuple, Iterator, Any, cast, TypeGuard
 
 from itertools import repeat
-from operator import add, mul, sub, truediv, eq
+from operator import add, mul, sub, truediv, eq, floordiv
 
 from functools import cache
 
@@ -58,11 +58,13 @@ class vec:
     def __add__(self, other: Union["vec", int]): return self.zipm(add, other)
     def __sub__(self, other: Union["vec", int]): return self.zipm(sub, other)
     def __mul__(self, other: Union["vec", int]): return self.zipm(mul, other)
+    def __floordiv__(self, other: Union["vec", int]): return self.zipm(floordiv, other)
     def __truediv__(self, other: Union["vec", int]): return self.zipm(truediv, other)
 
     def __radd__(self, other: Union["vec", int]): return self.zipm(add, other, True)
     def __rsub__(self, other: Union["vec", int]): return self.zipm(sub, other, True)
     def __rmul__(self, other: Union["vec", int]): return self.zipm(mul, other, True)
+    def __rfloordiv__(self, other: Union["vec", int]): return self.zipm(floordiv, other, True)
     def __rtruediv__(self, other: Union["vec", int]): return self.zipm(truediv, other, True)
 
     def __eq__(self, other: "vec"): return self.xs == other.xs
