@@ -37,7 +37,6 @@ with open("input/day10.txt", "r") as f:
 x = 1
 tot = []
 buffer = []
-flag20 = True
 for i, (op, *args) in enumerate(instr):
     pos = i % 40
     if x - 1 <= pos <= x + 1:
