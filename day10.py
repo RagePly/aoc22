@@ -13,11 +13,9 @@ flag20 = True
 for i, (op, *args) in enumerate(instr):
     j = i + 1
     if flag20 and j == 20:
-        print(j, x, j * x)
         tot.append(j * x)
         flag20 = False
     elif not flag20 and (j + 20) % 40 == 0:
-        print(j, x, j * x)
         tot.append(j * x)
     
     if op == "addx":
