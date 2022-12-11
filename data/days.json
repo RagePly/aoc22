@@ -40,8 +40,8 @@
         "part2": true
     },
     "day11": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
     },
     "day12": {
         "part1": false,
