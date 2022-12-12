@@ -79,6 +79,10 @@ class vec:
     @cache
     def cardinal(n):
         return [vec((k if i == j else 0 for i in range(n))) for j in range(n) for k in [-1, 1]]
+    
+    @staticmethod
+    def manhattan_betweeen(u: "vec", v: "vec"):
+        return u.dist(v)
 
     def __hash__(self): return hash(self.xs)
 

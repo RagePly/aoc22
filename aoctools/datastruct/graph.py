@@ -66,7 +66,7 @@ class fgraph(Graph):
     def __init__(self, childf):
         self._childf = childf
     def children(self, node):
-        return self.childf(node)
+        return self._childf(node)
 
 class gridgraph(Graph):
     """A grid-graph. Nodes are coordinates"""
