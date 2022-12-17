@@ -114,4 +114,11 @@ Using Python. When I have the extra time, Powershell 7.
         <td> - </td>
         <td> - </td>
     </tr>
+    <tr>
+        <td> Day 15 </td>
+        <td> ★ </td>
+        <td> ★ </td>
+        <td> - </td>
+        <td> - </td>
+    </tr>
 </table>
