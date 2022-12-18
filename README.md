@@ -130,8 +130,8 @@ Using Python. When I have the extra time, Powershell 7.
     </tr>
     <tr>
         <td> Day 17 </td>
-        <td> - </td>
-        <td> - </td>
+        <td> ★ </td>
+        <td> ★ </td>
         <td> - </td>
         <td> - </td>
     </tr>
