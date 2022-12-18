@@ -60,7 +60,7 @@
         "part2": true
     },
     "day16": {
-        "part1": false,
+        "part1": true,
         "part2": false
     },
     "day17": {
@@ -68,8 +68,8 @@
         "part2": false
     },
     "day18": {
-        "part1": false,
-        "part2": false
+        "part1": true,
+        "part2": true
     },
     "day19": {
         "part1": false,
